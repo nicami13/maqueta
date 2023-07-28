@@ -1,0 +1,96 @@
+body
+{
+    background-color: #1e1d2b !important;   
+}
+.container-fluid
+{
+    display: flex;
+    padding: 20px;
+    background-color: #1e1d2b;    
+}
+
+.container-fluid .navbar-brand
+{
+    display: flex;
+    color: #ff702a;
+    font-weight: 800;
+}
+
+#navbarNav{
+    display: none;
+    position: absolute;
+    left: 85%; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    padding: 10px; 
+  }
+@media (max-width: 768px) {
+  .full-text {
+    display: none;
+    position: relative; /* Importante para que el posicionamiento relativo funcione */
+    /* Ajusta la altura del div según tus necesidades */
+    margin-left: 100px;
+    margin-top: 40px;
+    height: 300px; /* Por ejemplo, ajustamos la altura a 300px */
+  }
+  .full-text h1{
+    display: none;
+    color: #ff702a;
+    font-size:80px;
+  }
+  .full-text h3{
+    color: #FFFFFF;
+    font-size:20px;
+  }
+
+  .full-text button{
+    display: none;
+    background-color: #ff702a;
+    border-color: #ff702a;
+    color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+  }
+   .full-text img{
+    display: none;
+    width: 250px;
+    height: 250px;
+
+  }
+
+}
+
+.full-text {
+ 
+    position: relative; /* Importante para que el posicionamiento relativo funcione */
+    /* Ajusta la altura del div según tus necesidades */
+    margin-left: 100px;
+    margin-top: 40px;
+    height: 300px; /* Por ejemplo, ajustamos la altura a 300px */
+  }
+  .full-text h1{
+
+    color: #ff702a;
+    font-size:80px;
+  }
+  .full-text h3{
+    color: #FFFFFF;
+    font-size:20px;
+  }
+
+  .full-text button{
+   
+    background-color: #ff702a;
+    border-color: #ff702a;
+    color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+  }
+    .full-text img{
+    display: none;
+    width: 250px;
+    height: 250px;
+
+  }
